@@ -1,10 +1,8 @@
-package Read;
+package Read_and_Write;
 
 import com.google.gson.Gson;
-import org.apache.logging.log4j.core.util.FileUtils;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
