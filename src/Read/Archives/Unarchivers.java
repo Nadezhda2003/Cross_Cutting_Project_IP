@@ -46,7 +46,7 @@ public class Unarchivers {
                 //text=reader.read_xml(name);
                 break;
             case ".json":
-                //text=reader.read_json(name);
+                text=reader.read_json(name);
                 break;
         }
         return text;
@@ -90,7 +90,7 @@ public class Unarchivers {
                     //text=reader.read_xml(name);
                     break;
                 case ".json":
-                    //text=reader.read_json(name);
+                    text=reader.read_json(name);
                     break;
             }
         }

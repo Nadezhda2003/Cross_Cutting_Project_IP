@@ -1,7 +1,9 @@
 package Read;
 
+import com.google.gson.Gson;
 import org.apache.logging.log4j.core.util.FileUtils;
 
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -23,8 +25,10 @@ public class FilesRead {
         reader.close();
         return text;
     }
-    public void read_json(String FileName)
-    {
-
+    public String read_json(String FileName) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(FileName));
+        String text = new Gson().fromJson(reader, String.class);
+        reader.close();
+        return text;
     }
 }
