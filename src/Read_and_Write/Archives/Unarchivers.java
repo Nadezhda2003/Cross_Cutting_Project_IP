@@ -1,5 +1,5 @@
-package Read.Archives;
-import Read.FilesRead;
+package Read_and_Write.Archives;
+import Read_and_Write.FilesRead;
 import com.github.junrar.Archive;
 import com.github.junrar.exception.RarException;
 import com.github.junrar.rarfile.FileHeader;

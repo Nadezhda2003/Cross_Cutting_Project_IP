@@ -1,4 +1,4 @@
-package Read.Archives;
+package Read_and_Write.Archives;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
