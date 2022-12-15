@@ -3,18 +3,21 @@ import Read_and_Write.FilesRead;
 import com.github.junrar.Archive;
 import com.github.junrar.exception.RarException;
 import com.github.junrar.rarfile.FileHeader;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class Unarchivers {
-    public String unarchivate_rar(String FileName) throws RarException, IOException {
+    public String unarchivate_rar(String FileName, boolean a) throws RarException, IOException, ParserConfigurationException, SAXException, GeneralSecurityException {
         String text="";
         String name="";
         File f = new File(FileName);
@@ -40,18 +43,18 @@ public class Unarchivers {
         switch (format)
         {
             case ".txt":
-                text= reader.read_plain_text(name);
+                text= reader.read_plain_text(name, a);
                 break;
             case ".xml":
-                //text=reader.read_xml(name);
+                text=reader.read_xml(name, a);
                 break;
             case ".json":
-                text=reader.read_json(name);
+                text=reader.read_json(name, a);
                 break;
         }
         return text;
     }
-    public String unarchivate_zip(String FileName)
+    public String unarchivate_zip(String FileName, boolean a)
     {
         String text="";
         try(ZipInputStream zin = new ZipInputStream(new FileInputStream(FileName)))
@@ -63,8 +66,6 @@ public class Unarchivers {
 
                 name = entry.getName();
                 size=entry.getSize();
-
-                // распаковка
                 FileOutputStream fout = new FileOutputStream("D:\\Работа\\ПП\\Java_task\\" + name);
                 for (int c = zin.read(); c != -1; c = zin.read()) {
                     fout.write(c);
@@ -84,13 +85,13 @@ public class Unarchivers {
             switch (format)
             {
                 case ".txt":
-                    text= reader.read_plain_text(name);
+                    text= reader.read_plain_text(name, a);
                     break;
                 case ".xml":
-                    //text=reader.read_xml(name);
+                    text=reader.read_xml(name, a);
                     break;
                 case ".json":
-                    text=reader.read_json(name);
+                    text=reader.read_json(name, a);
                     break;
             }
         }

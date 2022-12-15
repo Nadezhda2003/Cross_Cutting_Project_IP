@@ -1,5 +1,6 @@
 package Read_and_Write;
 
+import Read_and_Write.Decoder_and_Encoder.DecryptEncrypt;
 import com.google.gson.Gson;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -12,11 +13,18 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.security.GeneralSecurityException;
+import java.security.Key;
 import java.util.Scanner;
 
 public class FilesRead {
-    public String read_xml(String FileName) throws ParserConfigurationException, IOException, SAXException {
+    public String read_xml(String FileName, boolean a) throws ParserConfigurationException, IOException, SAXException, GeneralSecurityException {
         String text="";
+        if (a == true)
+        {
+            Key key = new DecryptEncrypt().getKey("12345");
+            new DecryptEncrypt().encrypt(FileName, "D:\\Работа\\ПП\\Java_task\\"+FileName, key);
+        }
         File xmlFile = new File(FileName);
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
@@ -35,7 +43,12 @@ public class FilesRead {
         }
         return text;
     }
-    public String read_plain_text(String FileName) throws IOException {
+    public String read_plain_text(String FileName, boolean a) throws IOException, GeneralSecurityException {
+        if (a == true)
+        {
+            Key key = new DecryptEncrypt().getKey("12345");
+            new DecryptEncrypt().encrypt(FileName, "D:\\Работа\\ПП\\Java_task\\"+FileName, key);
+        }
         FileReader reader = new FileReader(FileName);
         Scanner in=new Scanner(reader);
         String text="";
@@ -46,7 +59,12 @@ public class FilesRead {
         reader.close();
         return text;
     }
-    public String read_json(String FileName) throws IOException {
+    public String read_json(String FileName, boolean a) throws IOException, GeneralSecurityException {
+        if (a == true)
+        {
+            Key key = new DecryptEncrypt().getKey("12345");
+            new DecryptEncrypt().encrypt(FileName, "D:\\Работа\\ПП\\Java_task\\"+FileName, key);
+        }
         BufferedReader reader = new BufferedReader(new FileReader(FileName));
         String text = new Gson().fromJson(reader, String.class);
         reader.close();

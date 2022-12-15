@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java_task/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read/Archives/Archivers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read/Archives/Unarchivers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read/FilesRead.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/Archives/Archivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/Archives/Archivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/Archives/Unarchivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/Archives/Unarchivers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesRead.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -38,13 +40,109 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Работа/лабы 3 сем java/Jar файлы для Java/Gson/gson-2.9.1.jar",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "D:/Работа/ПП/Java_task",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Read_and_Write.Decoder_and_Encoder" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests.Encoders_Decoders_Tests" />
+      <recent name="Read_and_Write.Decoder_and_Encoder" />
+      <recent name="Read_and_Write.Decoder_and_Encoder.Encoders_Decoders_Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DecryptorEncryptorTest.whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java_task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecodersEncodersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.DecodersEncodersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecodersEncodersTest.EncryptAndDecrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.DecodersEncodersTest" />
+      <option name="METHOD_NAME" value="EncryptAndDecrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecryptorEncryptorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.DecryptorEncryptorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecryptorEncryptorTest.whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.DecryptorEncryptorTest" />
+      <option name="METHOD_NAME" value="whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DecryptorEncryptorTest.whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DecryptorEncryptorTest" />
+        <item itemvalue="JUnit.DecodersEncodersTest" />
+        <item itemvalue="JUnit.DecodersEncodersTest.EncryptAndDecrypt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,16 +164,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Read_and_Write/FilesRead.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
