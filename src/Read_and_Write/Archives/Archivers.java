@@ -14,12 +14,9 @@ public class Archivers {
         {
             ZipEntry entry1=new ZipEntry(FileName);
             zout.putNextEntry(entry1);
-            // считываем содержимое файла в массив byte
             byte[] buffer = new byte[fis.available()];
             fis.read(buffer);
-            // добавляем содержимое к архиву
             zout.write(buffer);
-            // закрываем текущую запись для новой записи
             zout.closeEntry();
         }
         catch(Exception ex){
