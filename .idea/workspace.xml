@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/RarArchivationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Read_and_Write/Archives/ArchiveRar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java_task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read/Archives/Unarchivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read/Archives/Unarchivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read/FilesRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read/FilesRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read/Archives/Archivers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read/Archives/Unarchivers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read/FilesRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read/Archives/Archivers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read/Archives/Unarchivers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read/FilesRead.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +43,82 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Работа/лабы 3 сем java/Jar файлы для Java/Gson/gson-2.9.1.jar",
+    "last_opened_file_path": "D:/Работа/лабы 3 сем java/Jar файлы для Java/jupiter/opentest4j-1.2.0.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Работа\ПП\Java_task\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FilesTests.WritingReadingFileXml">
+    <configuration name="MainConcole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainConcole" />
+      <module name="Java_task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.FilesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesTests.WritingReadingFileJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.FilesTests" />
+      <option name="METHOD_NAME" value="WritingReadingFileJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesTests.WritingReadingFileXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.FilesTests" />
+      <option name="METHOD_NAME" value="WritingReadingFileXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FilesTests.WritingReadingFileXml" />
+        <item itemvalue="Application.MainConcole" />
+        <item itemvalue="JUnit.FilesTests" />
+        <item itemvalue="JUnit.FilesTests.WritingReadingFileJson" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
