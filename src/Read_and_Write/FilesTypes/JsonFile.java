@@ -15,7 +15,7 @@ public class JsonFile implements IFileReadingWriting {
         if (a == true)
         {
             Key key = new DecryptEncrypt().getKey("12345");
-            new DecryptEncrypt().encrypt(FileName, "D:\\Работа\\ПП\\Java_task\\"+FileName, key);
+            new DecryptEncrypt().encrypt(FileName, FileName, key);
         }
         BufferedReader reader = new BufferedReader(new FileReader(FileName));
         String text = new Gson().fromJson(reader, String.class);
