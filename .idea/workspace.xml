@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Parsing/CalculationRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Parsing/CalculationRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Parsing/FindArithmeticExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Parsing/FindArithmeticExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parsing/CalculationRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/CalculationRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parsing/FindArithmeticExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/FindArithmeticExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/RegexTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/RegexTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
