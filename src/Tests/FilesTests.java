@@ -2,17 +2,9 @@ package Tests;
 
 import Read_and_Write.Archives.ArchiveZip;
 import Read_and_Write.Decoder_and_Encoder.DecryptEncrypt;
-import Read_and_Write.FilesTypes.JsonFile;
 import Read_and_Write.FilesTypes.TxtFile;
-import Read_and_Write.FilesTypes.XmlFile;
-import Read_and_Write.Interfaces.IFileReadingWriting;
-import org.apache.logging.log4j.core.appender.rolling.action.IfLastModified;
 import org.junit.jupiter.api.Test;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.transform.TransformerException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -80,31 +72,5 @@ class FilesTests {
         new File("D:\\Работа\\ПП\\Java_task\\result.txt").delete();
         new File("D:\\Работа\\ПП\\Java_task\\res.zip").delete();
         assertEquals(originText, text);
-    }
-    @Test
-    public void WritingReadingFileJson() throws IOException, GeneralSecurityException, ParserConfigurationException, SAXException, XMLStreamException, TransformerException {
-        String origintest="hello FAMCS.";
-        IFileReadingWriting read = new JsonFile();
-        read.writing(origintest, "D:\\Работа\\ПП\\Java_task\\result.json");
-        String text = read.reading("D:\\Работа\\ПП\\Java_task\\result.json", false);
-        assertEquals(origintest, text);
-        new File("D:\\Работа\\ПП\\Java_task\\result.json").delete();
-    }
-    @Test
-    public void WritingReadingFileXml() throws IOException, GeneralSecurityException, ParserConfigurationException, SAXException, XMLStreamException, TransformerException {
-        String origintest="hello FAMCS.";
-        IFileReadingWriting read = new XmlFile();
-        read.writing(origintest, "D:\\Работа\\ПП\\Java_task\\result.xml");
-        String text = read.reading("D:\\Работа\\ПП\\Java_task\\result.xml", false);
-        assertEquals(origintest, text);
-
-    }
-    @Test
-    public void WritingReadingFileTxt() throws IOException, GeneralSecurityException, ParserConfigurationException, SAXException, XMLStreamException, TransformerException {
-        String origintest="hello FAMCS.";
-        IFileReadingWriting read = new TxtFile();
-        read.writing(origintest, "D:\\Работа\\ПП\\Java_task\\result.txt");
-        String text = read.reading("D:\\Работа\\ПП\\Java_task\\result.txt", false);
-        assertEquals(origintest, text);
     }
 }
