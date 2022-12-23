@@ -1,7 +1,7 @@
-package Read_and_Write;
+package Read_and_Write.FilesTypes;
 
 import Read_and_Write.Decoder_and_Encoder.DecryptEncrypt;
-import com.google.gson.Gson;
+import Read_and_Write.Interfaces.IFileReadingWriting;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -9,16 +9,16 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.security.Key;
-import java.util.Scanner;
 
-public class FilesRead {
-    public String read_xml(String FileName, boolean a) throws ParserConfigurationException, IOException, SAXException, GeneralSecurityException {
+public class XmlFile implements IFileReadingWriting {
+    @Override
+    public String reading(String FileName, boolean a) throws GeneralSecurityException, IOException, ParserConfigurationException, SAXException {
         String text="";
         if (a == true)
         {
@@ -43,31 +43,21 @@ public class FilesRead {
         }
         return text;
     }
-    public String read_plain_text(String FileName, boolean a) throws IOException, GeneralSecurityException {
-        if (a == true)
-        {
-            Key key = new DecryptEncrypt().getKey("12345");
-            new DecryptEncrypt().encrypt(FileName, "D:\\Работа\\ПП\\Java_task\\"+FileName, key);
-        }
-        FileReader reader = new FileReader(FileName);
-        Scanner in=new Scanner(reader);
-        String text="";
-        while(in.hasNextLine())
-        {
-            text+=in.nextLine();
-        }
-        reader.close();
-        return text;
+
+    @Override
+    public void writing(String text, String way) throws IOException {
+        var outputFile = new FileOutputStream(way);
+        outputFile.write(text.getBytes());
+        outputFile.close();
     }
-    public String read_json(String FileName, boolean a) throws IOException, GeneralSecurityException {
-        if (a == true)
-        {
-            Key key = new DecryptEncrypt().getKey("12345");
-            new DecryptEncrypt().encrypt(FileName, "D:\\Работа\\ПП\\Java_task\\"+FileName, key);
+    private File mkdirFiles(String filePath) throws IOException {
+        File file = new File(filePath);
+        File parent=file.getParentFile();
+        if (!file.getParentFile().exists()) {
+            file.getParentFile().mkdirs();
         }
-        BufferedReader reader = new BufferedReader(new FileReader(FileName));
-        String text = new Gson().fromJson(reader, String.class);
-        reader.close();
-        return text;
+        file.createNewFile();
+
+        return file;
     }
 }
