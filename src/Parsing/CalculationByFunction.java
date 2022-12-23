@@ -74,7 +74,7 @@ public class CalculationByFunction {
         return true;
     }
 
-    public double evaluate(String expstr) throws CalculationByFunctionException {
+    public String evaluate(String expstr) throws CalculationByFunctionException {
         double result;
 
         exp = expstr;
@@ -89,7 +89,7 @@ public class CalculationByFunction {
         if(!token.equals(EOF))
             handleErr(SYNTAXERROR);
 
-        return result;
+        return Double.toString(result);
     }
 
     private double evalExp2() throws CalculationByFunctionException {
