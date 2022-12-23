@@ -21,9 +21,16 @@ public class FindArithmeticExpression {
     public ArrayList<String> getExpressionWithBrackets()
     {
         ArrayList<String> exprs = new ArrayList<String>();
+        String middle="";
         matcher = regexExpressionWithBrackets.matcher(text);
         while(matcher.find())
-            exprs.add(matcher.group());
+        {
+            middle = matcher.group();
+            if (middle.charAt(0) == '(')
+                exprs.add(middle);
+            else
+                exprs.add(middle.substring(1));
+        }
         if (exprs.isEmpty())
             return null;
         return exprs;
@@ -34,7 +41,7 @@ public class FindArithmeticExpression {
         ArrayList<String> exprs = new ArrayList<String>();
         matcher = regexExpression.matcher(text);
         while(matcher.find())
-            exprs.add(matcher.group().substring(1));
+            exprs.add(matcher.group());
         if (exprs.isEmpty())
             return null;
         return exprs;
@@ -42,16 +49,25 @@ public class FindArithmeticExpression {
 
     public String replaceExpressionWithBrackets(String what, String change)
     {
-        return text.replaceAll(what, change);
+        text = text.replace(what, change);
+        return text;
     }
 
     public String replaceExpression (String what, String change)
     {
-        return text.replaceAll(what, change);
+        text = text.replace(what, change);
+        return text;
     }
 
     public String deleteBrackets(String expr)
     {
         return expr.replaceAll("\\(","").replaceAll("\\)","");
+    }
+
+    public boolean isNumber(String line)
+    {
+        Pattern pattern = Pattern.compile("^(\\d+)*[.]?\\d+$");
+        matcher = pattern.matcher(line);
+        return matcher.find();
     }
 }

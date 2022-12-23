@@ -32,4 +32,22 @@ public class RegexTests {
         String res = Double.toString(12+5*2-1);
         assertEquals(res, new CalculationByFunction().evaluate(a));
     }
+    @Test
+    void CalculateRunByLibraryTest()
+    {
+        String a = "(12+5)*3-(1/2) e";
+        double num = 1/2;
+        double num1 = (12+5)*3-1.0/2.0;
+        String res = Double.toString(num1) + " e";
+        assertEquals(res, new CalculationRun().CalculationRunByLibrary(a));
+    }
+
+    @Test
+    void CalculateRunByFunctionTest() throws CalculationByFunctionException {
+        String a = "(12+5)*3-(1/2) e";
+        double num = 1/2;
+        double num1 = (12+5)*3-1.0/2.0;
+        String res = Double.toString(num1) + " e";
+        assertEquals(res, new CalculationRun().CalculationRunByFunction(a));
+    }
 }

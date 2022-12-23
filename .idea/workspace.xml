@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parsing/CalculationByLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/CalculationByLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Parsing/CalculationRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Parsing/CalculationRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Parsing/FindArithmeticExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Parsing/FindArithmeticExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parsing/CalculationRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/CalculationRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parsing/FindArithmeticExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/FindArithmeticExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/RegexTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/RegexTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,15 +65,8 @@
       <recent name="Read_and_Write.Decoder_and_Encoder.Encoders_Decoders_Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegexTests.CalculateByFunctionTest">
-    <configuration name="MainConcole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainConcole" />
-      <module name="Java_task" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilesTests.whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegexTests">
+    <configuration name="RegexTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_task" />
       <extension name="coverage">
         <pattern>
@@ -79,9 +75,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.FilesTests" />
-      <option name="METHOD_NAME" value="whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexTests.FindBracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegexTests.CalculateRunByFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_task" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +123,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
-      <option name="METHOD_NAME" value="FindBracketsTest" />
+      <option name="METHOD_NAME" value="CalculateRunByFunctionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTests.CalculateRunByLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
+      <option name="METHOD_NAME" value="CalculateRunByLibraryTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegexTests" />
+        <item itemvalue="JUnit.RegexTests.CalculateRunByFunctionTest" />
+        <item itemvalue="JUnit.RegexTests.CalculateRunByLibraryTest" />
         <item itemvalue="JUnit.RegexTests.CalculateByFunctionTest" />
         <item itemvalue="JUnit.RegexTests.CalculateByLibraryTest" />
-        <item itemvalue="JUnit.RegexTests.FindBracketsTest" />
-        <item itemvalue="Application.MainConcole" />
-        <item itemvalue="JUnit.FilesTests.whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" />
       </list>
     </recent_temporary>
   </component>
