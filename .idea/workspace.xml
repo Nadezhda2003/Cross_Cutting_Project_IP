@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/Archives/Archivers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/Archives/Unarchivers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/FilesRead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Tests/Encoders_Decoders_Tests/DecryptorEncryptorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainConcole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/Archives/Archivers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/Archives/Unarchivers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesRead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/DecryptorEncryptorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/FilesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parsing/CalculationByLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/CalculationByLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/RegexTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Encoders_Decoders_Tests/RegexTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +62,10 @@
       <recent name="Read_and_Write.Decoder_and_Encoder.Encoders_Decoders_Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegexTests.FindBracketsTest">
+  <component name="RunManager" selected="JUnit.RegexTests.CalculateByFunctionTest">
     <configuration name="MainConcole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainConcole" />
       <module name="Java_task" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.FilesTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesTests.whenFileIsArhivateIntoZip_andUnarchivateFile_thenOriginalTextIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegexTests.CalculateByFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_task" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +95,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.FilesTests" />
-      <option name="METHOD_NAME" value="whenFileIsArhivateIntoZip_andUnarchivateFile_thenOriginalTextIsReturned" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
+      <option name="METHOD_NAME" value="CalculateByFunctionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTests.CalculateByLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
+      <option name="METHOD_NAME" value="CalculateByLibraryTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegexTests.CalculateByFunctionTest" />
+        <item itemvalue="JUnit.RegexTests.CalculateByLibraryTest" />
         <item itemvalue="JUnit.RegexTests.FindBracketsTest" />
         <item itemvalue="Application.MainConcole" />
         <item itemvalue="JUnit.FilesTests.whenEncryptingIntoFile_andDecryptingFileAgain_thenOriginalStringIsReturned" />
-        <item itemvalue="JUnit.FilesTests" />
-        <item itemvalue="JUnit.FilesTests.whenFileIsArhivateIntoZip_andUnarchivateFile_thenOriginalTextIsReturned" />
       </list>
     </recent_temporary>
   </component>
