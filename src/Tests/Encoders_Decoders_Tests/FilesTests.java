@@ -1,6 +1,8 @@
 package Tests.Encoders_Decoders_Tests;
 
+import Read_and_Write.Archives.ArchiveZip;
 import Read_and_Write.Decoder_and_Encoder.DecryptEncrypt;
+import Read_and_Write.FilesTypes.TxtFile;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
@@ -15,7 +17,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-class DecryptorEncryptorTest {
+class FilesTests {
 
     private static boolean isEqual(Path firstFile, Path secondFile)
     {
@@ -59,5 +61,16 @@ class DecryptorEncryptorTest {
         File secondFile=new File("res.txt");
         assertEquals(true, isEqual(firstFile.toPath(), secondFile.toPath()));
         new File("res.txt").delete();
+    }
+
+    @Test
+    public void whenFileIsArhivateIntoZip_andUnarchivateFile_thenOriginalTextIsReturned() throws IOException {
+        String originText="Hello";
+        new TxtFile().writing(originText, "D:\\Работа\\ПП\\Java_task\\result.txt");
+        new ArchiveZip().archivate("result.txt", "D:\\Работа\\ПП\\Java_task\\res.zip");
+        String text= new ArchiveZip().unarchivate("D:\\Работа\\ПП\\Java_task\\res.zip", false);
+        new File("D:\\Работа\\ПП\\Java_task\\result.txt").delete();
+        new File("D:\\Работа\\ПП\\Java_task\\res.zip").delete();
+        assertEquals(originText, text);
     }
 }
