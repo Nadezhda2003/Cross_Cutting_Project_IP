@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Java_task/Tests/Encoders_Decoders_Tests/FilesTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java_task/Tests/Encoders_Decoders_Tests/RegexTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/MainConcole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/MainConcole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/FilesTypes/XmlFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/FilesTypes/XmlFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/Interfaces/IFileReadingWriting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/Interfaces/IFileReadingWriting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Tests/FilesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Tests/FilesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainConcole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainConcole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/Interfaces/IFileReadingWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/Interfaces/IFileReadingWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/FilesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/FilesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/JsonFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/TxtFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/TxtFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/XmlFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/XmlFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,28 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="FilesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.FilesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FilesTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

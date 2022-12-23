@@ -1,5 +1,6 @@
 package Read_and_Write.FilesTypes;
 
+import Read_and_Write.Decoder_and_Encoder.DecryptEncrypt;
 import Read_and_Write.Interfaces.IFileReadingWriting;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
@@ -15,10 +16,16 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.security.GeneralSecurityException;
+import java.security.Key;
 
 public class XmlFile implements IFileReadingWriting {
     @Override
     public String reading(String FileName, boolean a) throws GeneralSecurityException, IOException, ParserConfigurationException, SAXException {
+        if (a == true)
+        {
+            Key key = new DecryptEncrypt().getKey("12345");
+            new DecryptEncrypt().encrypt(FileName, FileName, key);
+        }
         String text="";
         File inputFile = new File(FileName);
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
