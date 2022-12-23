@@ -1,4 +1,4 @@
-package Tests.Encoders_Decoders_Tests;
+package Tests;
 
 import Exceptions.CalculationByFunctionException;
 import org.junit.jupiter.api.Test;
