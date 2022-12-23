@@ -1,4 +1,4 @@
-package Tests.Encoders_Decoders_Tests;
+package Tests;
 
 import Read_and_Write.Archives.ArchiveZip;
 import Read_and_Write.Decoder_and_Encoder.DecryptEncrypt;
