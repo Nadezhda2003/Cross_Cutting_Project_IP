@@ -32,7 +32,7 @@ public class CalculationRun {
             {
                 line =lines.get(i);
                 if (arithm.isNumber(line))
-                   return result;
+                    return result;
                 middleres = lib.Calculate(line);
                 result= arithm.replaceExpression(line, middleres);
             }

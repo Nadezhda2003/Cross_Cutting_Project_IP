@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="" />
+    <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,126 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Работа/ПП/Java_task&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Работа/лабы 3 сем java/Jar файлы для Java/Gson/gson-2.9.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Exceptions" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Read_and_Write.Decoder_and_Encoder" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Tests.Encoders_Decoders_Tests" />
-      <recent name="Read_and_Write.Decoder_and_Encoder" />
-      <recent name="Read_and_Write.Decoder_and_Encoder.Encoders_Decoders_Tests" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.RegexTests">
-    <configuration name="RegexTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegexTests.CalculateByFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
-      <option name="METHOD_NAME" value="CalculateByFunctionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegexTests.CalculateByLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
-      <option name="METHOD_NAME" value="CalculateByLibraryTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegexTests.CalculateRunByFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
-      <option name="METHOD_NAME" value="CalculateRunByFunctionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegexTests.CalculateRunByLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Encoders_Decoders_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Encoders_Decoders_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Encoders_Decoders_Tests.RegexTests" />
-      <option name="METHOD_NAME" value="CalculateRunByLibraryTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RegexTests" />
-        <item itemvalue="JUnit.RegexTests.CalculateRunByFunctionTest" />
-        <item itemvalue="JUnit.RegexTests.CalculateRunByLibraryTest" />
-        <item itemvalue="JUnit.RegexTests.CalculateByFunctionTest" />
-        <item itemvalue="JUnit.RegexTests.CalculateByLibraryTest" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -7,6 +7,7 @@ import Read_and_Write.Archives.*;
 import Read_and_Write.Decoder_and_Encoder.*;
 import Read_and_Write.FilesTypes.*;
 import Read_and_Write.Interfaces.*;
+
 public class MainConcole {
         public static void main(String[] args) throws Exception {
                 /*CalculationByFunction parser = new CalculationByFunction();
@@ -28,15 +29,8 @@ public class MainConcole {
                 //Pattern regex = Pattern.compile("\\b([-+]?[0-9]*\\.?[0-9]+([-+*/]?([0-9]*\\.?[0-9]+))*)\\b");
                 //Pattern regex1=Pattern.compile("[-+*/]\\(([-+]?[0-9]*\\.?[0-9]+([-+*/]?([0-9]*\\.?[0-9]+))*)\\)");
                 //Matcher matcher = regex1.matcher(str);
-                /*ArrayList<String> a = new ArrayList<>();
-                while (matcher.find())
-                {
-                        a.add(matcher.group());
-                }
-                System.out.println(a);*/
-
-                String a = "(1+2)";
-                String res=new FindArithmeticExpression().deleteBrackets(a);
-                System.out.println(res);
-        }
+        /* String a = "(1+2)";
+        String res=new FindArithmeticExpression().deleteBrackets(a);
+        System.out.println(res);*/
+    }
 }
