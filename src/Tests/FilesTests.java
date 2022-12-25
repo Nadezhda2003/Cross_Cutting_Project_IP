@@ -97,7 +97,7 @@ class FilesTests {
         read.writing(origintest, "D:\\Работа\\ПП\\Java_task\\result.xml");
         String text = read.reading("D:\\Работа\\ПП\\Java_task\\result.xml", false);
         assertEquals(origintest, text);
-
+        new File("D:\\Работа\\ПП\\Java_task\\result.xml").delete();
     }
     @Test
     public void WritingReadingFileTxt() throws IOException, GeneralSecurityException, ParserConfigurationException, SAXException, XMLStreamException, TransformerException {
@@ -106,5 +106,6 @@ class FilesTests {
         read.writing(origintest, "D:\\Работа\\ПП\\Java_task\\result.txt");
         String text = read.reading("D:\\Работа\\ПП\\Java_task\\result.txt", false);
         assertEquals(origintest, text);
+        new File("D:\\Работа\\ПП\\Java_task\\result.txt").delete();
     }
 }

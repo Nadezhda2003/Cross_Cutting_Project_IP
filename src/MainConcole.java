@@ -227,16 +227,7 @@ public class MainConcole {
         }
         switch (num1)
         {
-            case 1:
-                menuArchive();
-                typearchive=in.nextInt();
-                switch (typearchive)
-                {
-                    case 1: archive=new ArchiveZip();
-                        break;
-                    case 2: archive=new ArchiveRar();
-                        break;
-                }
+            case 1: archive=new ArchiveZip();
                 file.writing(text, way2);
                 FileName = createZipName(way2);
                 archive.archivate(way2, FileName);
@@ -244,29 +235,12 @@ public class MainConcole {
             case 2:
                 new DecryptEncrypt().encrypt(way2, way2, key);
                 break;
-            case 3: menuArchive();
-                typearchive=in.nextInt();
-                switch (typearchive)
-                {
-                    case 1: archive=new ArchiveZip();
-                        break;
-                    case 2: archive=new ArchiveRar();
-                        break;
-                }
+            case 3: archive=new ArchiveZip();
                 FileName=createZipName(way2);
                 archive.archivate(way2, FileName);
                 new DecryptEncrypt().encrypt(FileName, FileName, key);
                 break;
-            case 4:
-                menuArchive();
-                typearchive=in.nextInt();
-                switch (typearchive)
-                {
-                    case 1: archive=new ArchiveZip();
-                        break;
-                    case 2: archive=new ArchiveRar();
-                        break;
-                }
+            case 4: archive=new ArchiveZip();
                 new DecryptEncrypt().encrypt(way2, way2, key);
                 FileName=createZipName(way2);
                 archive.archivate(way2, FileName);

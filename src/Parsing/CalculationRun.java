@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 public class CalculationRun {
     public String CalculationRunByLibrary(String text)
     {
+        int count=0;
         FindArithmeticExpression arithm = new FindArithmeticExpression(text);
         CalculationByLibrary lib = new CalculationByLibrary();
         ArrayList<String> lines = arithm.getExpressionWithBrackets();
@@ -32,15 +33,19 @@ public class CalculationRun {
             {
                 line =lines.get(i);
                 if (arithm.isNumber(line))
-                    return result;
+                    count++;
                 middleres = lib.Calculate(line);
                 result= arithm.replaceExpression(line, middleres);
             }
+            if (count== lines.size())
+                return result;
+            count=0;
             lines = arithm.getExpression();
         }
         return result;
     }
     public String CalculationRunByFunction(String text) throws CalculationByFunctionException {
+        int count=0;
         FindArithmeticExpression arithm = new FindArithmeticExpression(text);
         CalculationByFunction lib = new CalculationByFunction();
         ArrayList<String> lines = arithm.getExpressionWithBrackets();
@@ -65,10 +70,13 @@ public class CalculationRun {
             {
                 line =lines.get(i);
                 if (arithm.isNumber(line))
-                    return result;
+                    count++;
                 middleres = lib.evaluate(line);
                 result= arithm.replaceExpression(line, middleres);
             }
+            if (count==lines.size())
+                return result;
+            count=0;
             lines = arithm.getExpression();
         }
         return result;

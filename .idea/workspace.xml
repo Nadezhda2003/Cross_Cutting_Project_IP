@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df82dbb1-5879-420a-8961-55f6fa298dd0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/MainConcole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/MainConcole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/FilesTypes/XmlFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/FilesTypes/XmlFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/Interfaces/IFileReadingWriting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Read_and_Write/Interfaces/IFileReadingWriting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_task/Tests/FilesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/Tests/FilesTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_task/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_task/MainUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainConcole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainConcole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/JsonFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/TxtFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/TxtFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/XmlFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_and_Write/FilesTypes/XmlFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parsing/CalculationRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parsing/CalculationRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +38,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Работа/лабы 3 сем java/Jar файлы для Java/Gson/gson-2.9.1.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "277",
+    "last_opened_file_path": "C:/Users/Олег/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2022.2.1/lib/forms_rt.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propGUI"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
+    <configuration name="MainConcole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainConcole" />
+      <module name="Java_task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainUI" />
+      <module name="Java_task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_task" />
       <extension name="coverage">
@@ -69,6 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainConcole" />
+        <item itemvalue="Application.MainUI" />
         <item itemvalue="JUnit.FilesTests" />
       </list>
     </recent_temporary>
@@ -96,6 +113,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Read_and_Write/FilesTypes/TxtFile.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="matcher" />

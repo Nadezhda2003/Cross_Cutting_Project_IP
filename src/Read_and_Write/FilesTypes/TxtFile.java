@@ -38,12 +38,10 @@ public class TxtFile implements IFileReadingWriting {
     }
     private File mkdirFiles(String filePath) throws IOException {
         File file = new File(filePath);
-        File parent=file.getParentFile();
         if (!file.getParentFile().exists()) {
             file.getParentFile().mkdirs();
         }
         file.createNewFile();
-
         return file;
     }
 }
