@@ -18,7 +18,8 @@ public class UploadController {
 
     @RequestMapping(value = "/upload", method = RequestMethod.POST, consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<UploadResponse> uploadFile(@RequestParam("file") MultipartFile file) throws IOException {
-        try{if (file.isEmpty)
+        try{
+            if (file.isEmpty)
             return ResponseEntity.badRequest().body("File is empty");
         File convertFile = new File(uploadPath + file.getOriginalFilename());
         convertFile.createNewFile();
