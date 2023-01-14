@@ -18,10 +18,10 @@ import java.io.IOException;
 @RequestMapping("api/v1/")
 public class FileArchivingController {
     protected final String uploadPath = Constants.FILE_UPLOAD_PATH;
-    protected final String downloadUri = Constants.DOWNLOAD_URI;
+    protected final String downloadUri = Constants.FILE_DOWNLOAD_PATH;
 
     @PostMapping("/zip")
-    public ResponseEntity<FileUploadResponse> zip(@RequestParam(value= "file") MultipartFile inputFile) throws IOException {
+    public ResponseEntity<UploadResponse> zip(@RequestParam(value= "file") MultipartFile inputFile) throws IOException {
         FileUploadUtil.saveFile(uploadPath, inputFile);
         String achieveFileName = ArchivingFileManager.getNameOfArchiveFile(inputFile.getOriginalFilename());
         File file = null;

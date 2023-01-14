@@ -5,8 +5,7 @@ import lombok.Getter;
 
 @Builder
 @Getter
-public class FileUploadResponse {
+public class UploadResponse {
     private String fileName;
-    private String downloadUri;
-    private long size;
+    private String downloadPath;
 }

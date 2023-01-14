@@ -1,5 +1,5 @@
 package com.bazhanova.restApi.controllers;
 
-public class FileDownloadControllerTest {
+public class UploadControllerTest {
 
 }
