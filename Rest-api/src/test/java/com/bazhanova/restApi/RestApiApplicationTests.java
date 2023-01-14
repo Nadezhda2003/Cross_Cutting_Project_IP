@@ -1,13 +1,13 @@
-package com.bazhanova;
+package com.bazhanova.restApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BazhanovaApplicationTests {
+class RestApiApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
