@@ -58,7 +58,7 @@ public class FileArchivingController {
     }
 
     @PostMapping("/unrar")
-    public ResponseEntity<FileUploadResponse> unRar(@RequestParam(value="file") MultipartFile inputFile, @RequestParam(value="outputfile") String outputFilename) throws IOException {
+    public ResponseEntity<UploadResponse> unRar(@RequestParam(value="file") MultipartFile inputFile, @RequestParam(value="outputfile") String outputFilename) throws IOException {
         try
         {
             if (inputFile.isEmpty())
@@ -93,7 +93,7 @@ public class FileArchivingController {
     }
 
     @PostMapping("/unzip")
-    public ResponseEntity<FileUploadResponse> unZip(@RequestParam(value= "file") MultipartFile inputFile, @RequestParam(value= "outputfile") String outputFilename) throws IOException {
+    public ResponseEntity<UploadResponse> unZip(@RequestParam(value= "file") MultipartFile inputFile, @RequestParam(value= "outputfile") String outputFilename) throws IOException {
         try
         {
             if (inputFile.isEmpty())
