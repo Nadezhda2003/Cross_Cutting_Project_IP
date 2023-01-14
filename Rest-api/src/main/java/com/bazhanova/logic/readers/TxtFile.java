@@ -1,7 +1,7 @@
 package com.bazhanova.logic.readers;
 
-import com.bazhanova.logic.utils.DecryptEncrypt;
-import com.bazhanova.logic.builders.IFileReadingWriting;
+import com.bazhanova.logic.archivesAndEncrypt.DecryptEncrypt;
+import com.bazhanova.logic.interfaces.IFileReadingWriting;
 
 import java.io.File;
 import java.io.FileReader;

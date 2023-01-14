@@ -1,7 +1,7 @@
 package com.bazhanova.logic.readers;
 
-import com.bazhanova.logic.utils.DecryptEncrypt;
-import com.bazhanova.logic.builders.IFileReadingWriting;
+import com.bazhanova.logic.archivesAndEncrypt.DecryptEncrypt;
+import com.bazhanova.logic.interfaces.IFileReadingWriting;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
