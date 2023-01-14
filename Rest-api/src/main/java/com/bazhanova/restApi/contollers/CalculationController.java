@@ -28,7 +28,7 @@ public class FileCalculationController {
     protected final String downloadPath = Constants.DOWNLOAD_URI;
 
     @PostMapping("/calculate/Function")
-    public ResponseEntity<FileUploadResponse> calculateByFunction(@RequestParam("inputfile") MultipartFile inputFile,
+    public ResponseEntity<UploadResponse> calculateByFunction(@RequestParam("inputfile") MultipartFile inputFile,
                                                         @RequestParam(value = "outputfile") String outputFile,
                                                         @RequestParam(value = "iszipped", required = false) boolean isZipped,
                                                         @RequestParam(value = "isencrypt", required = false) boolean isEncrypt) throws IOException {
@@ -72,7 +72,7 @@ public class FileCalculationController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
     @PostMapping("/calculate/Library")
-    public ResponseEntity<FileUploadResponse> calculateByLibrary(@RequestParam("inputfile") MultipartFile inputFile,
+    public ResponseEntity<UploadResponse> calculateByLibrary(@RequestParam("inputfile") MultipartFile inputFile,
                                                         @RequestParam(value = "outputfile") String outputFile,
                                                         @RequestParam(value = "iszipped", required = false) boolean isZipped,
                                                         @RequestParam(value = "isencrypt", required = false) boolean isEncrypt) throws IOException {
